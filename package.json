@@ -1,0 +1,20 @@
+{
+  "name": "server-hapi",
+  "version": "1.0.0",
+  "description": "servidor hapi js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "restart": "nodemon index.js"
+  },
+  "author": "TAmy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "4.0.0",
+    "hapi": "16.6.2",
+    "inert": "4.2.1",
+    "jsonwebtoken": "8.1.0",
+    "moment": "2.19.2",
+    "mongoose": "4.13.5"
+  }
+}
